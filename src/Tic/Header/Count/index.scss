@@ -1,0 +1,28 @@
+.count__screen {
+	display:flex;
+	width:240px;
+	justify-content:space-around;
+	position:relative;
+	&:after {
+		content:'';
+		border-right:3px solid peru;
+		position:absolute;
+		top:5px;
+		right:65px;
+		height:40px;
+	}
+	&:before {
+		content: '';
+		border-right:3px solid peru ;
+		position:absolute;
+		top: 5px;
+		left:80px;
+		height:40px;
+	}
+	
+}
+.count {
+	display:flex;
+	flex-direction:column;
+	text-align:center;
+}

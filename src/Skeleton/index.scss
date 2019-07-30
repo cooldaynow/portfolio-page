@@ -1,0 +1,36 @@
+//@format
+
+/* BODY */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333333;
+  background-color: #ffffff;
+  position: relative;
+}
+.row {
+  margin: 0;
+}
+.container-fluid {
+  padding: 0;
+}
+
+.marginTop {
+  border-top: 50px solid transparent;
+  margin-top: -55px;
+  padding-top: 55px;
+}
+.h2 {
+  margin-bottom: 20px;
+  font-size: 38px !important;
+  font-weight: 700;
+  span {
+    color: #339beb;
+  }
+}
+
+a:hover {
+text-decoration:none;
+}
+

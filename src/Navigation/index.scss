@@ -1,0 +1,42 @@
+//@format
+//NAVIGATION
+
+.navigation {
+  min-height: 50px;
+  opacity: 0.8;
+  transition: all 0.2s ease-in;
+  a {
+    color: white;
+    opacity: 1;
+    padding: 10px 24px;
+    font-size: 18px;
+    transition: all 0.3s linear;
+    &:hover {
+      color: #55acee;
+    }
+  }
+}
+.move {
+  background-color: rgba(0, 0, 0, 0.95) !important ;
+  opacity: 1;
+  min-height: 40px;
+  a {
+    font-size: 16px;
+  }
+}
+.current {
+  a {
+    color: #55acee !important;
+  }
+}
+@media (max-width: 760px) {
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation a:hover {
+    color: white;
+  }
+}

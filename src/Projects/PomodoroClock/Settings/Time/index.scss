@@ -1,0 +1,34 @@
+/* TIME */
+.time {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h2 {
+    margin:10px;
+  }
+  font-size:25px;
+}
+
+.time .arrows {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.pomodoro__buttons {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  &:focus {
+    outline:none;
+  }
+}
+
+.time .values {
+  width: 30px;
+  text-align: center;
+}

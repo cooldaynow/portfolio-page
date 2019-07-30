@@ -1,0 +1,32 @@
+/* LEFT SIDE */
+.drum__pad {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.drum__pad__buttons {
+  width: 100px;
+  height: 80px;
+  margin: 5px;
+  padding: 0;
+  box-shadow: 2px 2px 4px #000000;
+  background-color: grey;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  transition: all 0.1s linear;
+  font-size:18px;
+  font-weight: bold;
+  &:focus {
+    outline:none;
+  }
+}
+.press {
+  height: 77px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-color: orange;
+}
+

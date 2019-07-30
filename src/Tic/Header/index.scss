@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+	align-items:center;
+	justify-content:space-around;
+  width: 360px;
+  height: 60px;
+}
+.reset {
+	padding:0;
+  width: 100px;
+  border-radius: 50px;
+  font-size: 19px;
+  border-style: none;
+	box-shadow:none!important;
+  outline: none;
+  background-color: transparent!important;
+  background-repeat: no-repeat;
+	transition:all .2s linear;
+  &:hover {
+    border: 3px dashed #8b4513;
+    cursor: pointer;
+		background:none;
+  }
+}
+
+@media (max-width: 760px) {
+	.reset {
+		margin-right:10px;
+	}
+}

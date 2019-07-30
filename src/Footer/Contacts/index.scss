@@ -1,0 +1,26 @@
+//Contacts
+#contacts {
+  height: 100vh;
+  text-align: center;
+}
+
+.contacts__container {
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  .row {
+    width: 100%;
+  }
+}
+@media (max-width: 760px) {
+  #contacts {
+    height: 800px;
+  }
+  .contacts__container {
+    margin-top: 100px;
+  }
+  .contacts__icon {
+    width: 100% !important;
+    justify-content: center;
+  }
+}

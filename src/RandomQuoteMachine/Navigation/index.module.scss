@@ -1,0 +1,25 @@
+.nav {
+  height: 80px;
+  font-size: 28px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s linear;
+    &:hover {
+      color: #55acee;
+    }
+  }
+
+  ul {
+    padding:0;
+
+  }
+
+  li {
+    list-style-type: none;
+  }
+}

@@ -1,0 +1,17 @@
+.wrap__weather {
+	height: 100vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+
+}
+
+@media (max-width: 700px) {
+	.wrap__weather {
+		height:100%;
+		.container {
+			padding:0;
+		}
+	}
+}
+

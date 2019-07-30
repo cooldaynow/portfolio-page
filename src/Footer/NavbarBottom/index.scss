@@ -1,0 +1,20 @@
+.navbar__bottom {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin: 0;
+		span {
+			color:#55acee;
+		}
+  }
+}

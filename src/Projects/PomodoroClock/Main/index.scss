@@ -1,0 +1,37 @@
+/* FONTS */
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url('../fonts/digital-7.mono.ttf');
+}
+@font-face {
+  font-family: 'Righteous';
+  src: url('../fonts/Righteous-Regular.ttf');
+}
+@font-face {
+  font-family: 'Share Tech Mono';
+  src: url('../fonts/ShareTechMono-Regular.ttf');
+}
+/* CONTAINER */
+
+.pomodoro__container {
+  font-family: 'Righteous';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e555c;
+  color: white;
+  h2 {
+    font-weight: normal;
+    font-size: 30px;
+  }
+  /* POMODORO */
+}
+.pomodoro__wrap {
+  min-height: 500px;
+  min-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

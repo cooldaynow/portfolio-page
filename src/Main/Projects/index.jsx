@@ -10,12 +10,14 @@ import randomQuoteMachine from  '../../images/random-quote-machine.png';
 import calculator from  '../../images/calculator.png';
 import pomodoroClock from  '../../images/pomodoro-clock.png';
 import drumMachine from  '../../images/drum-machine.png';
+import testForLad from  '../../images/test.png';
 
 import './index.scss';
 
 class Projects extends Component {
   state = {
     cards: [
+      {src: testForLad, href: '/testForLad', name: 'Test for IT-company Lad'},
       {src: weather, href: '/SimpleWeatherViewer', name: 'Simple Weather Viewer'},
       {src: ticTacToe, href: '/TicTacToe', name: 'Simple Tic-Tac-Toe'},
       {src: randomQuoteMachine, href: '/RandomQuoteMachine', name: 'Random Quote Machine'},

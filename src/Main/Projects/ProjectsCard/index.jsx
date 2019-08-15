@@ -8,20 +8,18 @@ import {
   Col,
 } from 'reactstrap';
 
-const ProjectsCard = props => {
-  return (
-    <Col md={4} lg={4} sm={4}>
+const ProjectsCard = ({href, src, name})=> (
+    <Col md={6} lg={6} sm={6}>
       <Card className="projects__card">
-        <Link to={props.href}>
+        <Link to={href}>
           {' '}
-          <CardImg top width="100%" src={props.src} alt="weather image cap" />
+          <CardImg top width="100%" src={src} alt="weather image cap" />
           <CardFooter className = 'projects__card__footer'>
-            <p>{props.name}</p>
+            <p>{name}</p>
           </CardFooter>
         </Link>
       </Card>
     </Col>
   );
-};
 
 export default ProjectsCard;
